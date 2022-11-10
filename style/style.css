@@ -1,0 +1,95 @@
+*{
+    margin: 3px;
+    border: 3px;
+    padding: 3px;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: linear-gradient( 178.2deg,  rgba(118,8,23,1) 10.9%, rgba(158,12,33,1) 62.6% );
+}
+
+header{
+    text-align: center;
+    background-color: red;
+    padding: 50px;
+    box-shadow: 3px 3px 3px black;
+    margin-bottom: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+a{
+    margin-right: 10%;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    background-color: rgb(14, 14, 15);
+    padding: 10px;
+    border-radius: 20px;
+    }
+
+a:hover{
+background-color: blue;
+font-size: larger;
+color: rgb(90, 62, 62);
+transition: 0.5s;
+}
+
+main, #lutador{ 
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+    background-color: blanchedalmond;
+}
+
+main img{
+    width: 80%;
+    margin: auto;
+    display: block;   
+}
+
+main table{
+    border: 3px solid black;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+main table td{
+    border-bottom: 1px solid black;
+    }
+
+
+.containerLutador{
+    display: flex;
+    /*flex-direction: row;*/
+}
+
+.charles{
+    width: 30vw;
+    height: 30vh;
+}
+
+.aldo{
+    width: 20vw;
+    height: 30vh;
+}
+
+.lyoto{
+    width: 30vw;
+    height: 30vh;
+}
+
+
+#lutador h3{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+footer{
+    text-align: center;
+    margin-top: 3px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
